@@ -83,6 +83,20 @@ RUN tlmgr update --self &&\
     cleveref      \
     tcolorbox     \
     latexpand     \
-    filecontents
-
-
+    filecontents  \
+    glossaries    \
+    preprint \
+    mfirstuc \
+    xfor \
+    datatool \
+    substr \
+    fp \
+    tracklang \
+    parskip \
+    txfonts \
+    lipsum \
+    csquotes \
+    sectsty \
+    adjustbox \
+    collectbox \
+    jknappen
