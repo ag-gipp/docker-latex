@@ -27,5 +27,9 @@ If you see error messages like
 
 Type X to quit or <RETURN> to proceed,
 ```
-Search on [ctan](https://ctan.org/pkg/datatool) for the filename, here, and add the package name, here, datatool to the list in the [Dockerfile](Dockerfile). If you have to that multiple times use a second run command to speed up building. If you are done make a pull request.
+Search on [ctan](https://ctan.org/pkg/datatool) for the filename, here, and add the package name, here, datatool to the list in the [Dockerfile](Dockerfile). If you have to that multiple times use a second run command to speed up building. If you are done make a pull request. Be sure to use the correct package nme listed in 'contained in TEXLIVE' which can be different from the mitex and canonical ctan name. For example 
+```
+Con­tained in
+* TeX Live as jk­napltx
+* MiKTeX as jk­nap­pen
 

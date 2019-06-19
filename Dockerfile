@@ -1,5 +1,7 @@
 FROM adnrv/texlive:basic
 
+RUN tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+
 RUN tlmgr update --self &&\
     tlmgr install   \
     xkeyval    \
@@ -83,6 +85,20 @@ RUN tlmgr update --self &&\
     cleveref      \
     tcolorbox     \
     latexpand     \
-    filecontents
-
-
+    filecontents  \
+    glossaries    \
+    preprint \
+    mfirstuc \
+    xfor \
+    datatool \
+    substr \
+    fp \
+    tracklang \
+    parskip \
+    txfonts \
+    lipsum \
+    csquotes \
+    sectsty \
+    adjustbox \
+    collectbox \
+    jknapltx
